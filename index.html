@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfaplas UX Audit Board</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['DM Sans', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            critical: '#DC2626',
+            'critical-bg': '#FEF2F2',
+            'critical-border': '#FECACA',
+            high: '#EA580C',
+            'high-bg': '#FFF7ED',
+            'high-border': '#FED7AA',
+            medium: '#CA8A04',
+            'medium-bg': '#FEFCE8',
+            'medium-border': '#FEF08A',
+            low: '#16A34A',
+            'low-bg': '#F0FDF4',
+            'low-border': '#BBF7D0',
+            bg: '#F8FAFC',
+            surface: '#FFFFFF',
+            text: '#0F172A',
+            'text-secondary': '#475569',
+            'text-muted': '#94A3B8',
+            border: '#E2E8F0',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #F8FAFC;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
